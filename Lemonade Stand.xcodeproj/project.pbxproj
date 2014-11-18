@@ -80,8 +80,8 @@
 				9A745A461A1A7D57007B2F38 /* AppDelegate.swift */,
 				9A745A481A1A7D57007B2F38 /* ViewController.swift */,
 				9A745A4A1A1A7D57007B2F38 /* Main.storyboard */,
-				9A745A4D1A1A7D57007B2F38 /* Images.xcassets */,
 				9A745A4F1A1A7D57007B2F38 /* LaunchScreen.xib */,
+				9A745A4D1A1A7D57007B2F38 /* Images.xcassets */,
 				9A745A441A1A7D57007B2F38 /* Supporting Files */,
 			);
 			path = "Lemonade Stand";
@@ -405,6 +405,7 @@
 				9A745A621A1A7D57007B2F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A745A631A1A7D57007B2F38 /* Build configuration list for PBXNativeTarget "Lemonade StandTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				9A745A651A1A7D57007B2F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
