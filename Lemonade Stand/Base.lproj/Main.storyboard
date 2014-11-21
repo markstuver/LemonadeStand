@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
@@ -635,7 +635,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SjU-4d-k4q">
                                 <rect key="frame" x="16" y="153" width="272" height="198"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$2/ea" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4X9-bU-0wC">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$2/ea" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4X9-bU-0wC">
                                         <rect key="frame" x="66" y="51" width="44" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="XnA-1S-OVQ"/>
@@ -655,7 +655,7 @@
                                             </mask>
                                         </variation>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VS-LT-31O">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VS-LT-31O">
                                         <rect key="frame" x="139" y="49" width="29" height="27"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="29" id="CDa-ch-ljP"/>
@@ -679,7 +679,7 @@
                                             <action selector="purchaseLemonAddButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HRw-29-J5v"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygn-uL-CaE">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygn-uL-CaE">
                                         <rect key="frame" x="176" y="51" width="32" height="23"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="32" id="jKT-sa-Psc"/>
@@ -699,13 +699,13 @@
                                             </mask>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9e-tD-cdz">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9e-tD-cdz">
                                         <rect key="frame" x="176" y="91" width="32" height="23"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzf-A1-CK1">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzf-A1-CK1">
                                         <rect key="frame" x="207" y="132" width="36" height="30"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="31"/>
                                         <state key="normal" title="-">
@@ -715,13 +715,13 @@
                                             <action selector="purchaseSugarRemoveButtomPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Too-q1-FKE"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHV-Pa-4tR">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHV-Pa-4tR">
                                         <rect key="frame" x="176" y="134" width="32" height="23"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoppingCart" translatesAutoresizingMaskIntoConstraints="NO" id="RIL-YY-0qZ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="shoppingCart" translatesAutoresizingMaskIntoConstraints="NO" id="RIL-YY-0qZ">
                                         <rect key="frame" x="164" y="9" width="30" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="30" id="0UT-wP-L2n"/>
@@ -763,7 +763,7 @@
                                             <action selector="purchaseLemonRemoveButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rUB-gD-58X"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIW-4H-XqJ">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIW-4H-XqJ">
                                         <rect key="frame" x="139" y="133" width="29" height="27"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
                                         <state key="normal" title="+">
@@ -773,7 +773,7 @@
                                             <action selector="purchaseSugarAddButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aqf-EW-2jM"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smO-5f-F4c">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smO-5f-F4c">
                                         <rect key="frame" x="139" y="90" width="29" height="27"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
                                         <state key="normal" title="+">
@@ -783,7 +783,7 @@
                                             <action selector="purchaseIceCubeAddButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rvS-mB-D27"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lemons" translatesAutoresizingMaskIntoConstraints="NO" id="kVV-Vh-Ra5">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lemons" translatesAutoresizingMaskIntoConstraints="NO" id="kVV-Vh-Ra5">
                                         <rect key="frame" x="0.0" y="36" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="Xfs-Zy-UvG"/>
@@ -800,10 +800,10 @@
                                             </mask>
                                         </variation>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iceCubes" translatesAutoresizingMaskIntoConstraints="NO" id="lhb-xi-d9n">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="iceCubes" translatesAutoresizingMaskIntoConstraints="NO" id="lhb-xi-d9n">
                                         <rect key="frame" x="0.0" y="82" width="40" height="40"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1/ea" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8T-Fh-p5a">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$1/ea" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8T-Fh-p5a">
                                         <rect key="frame" x="66" y="93" width="44" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="N3i-rA-KCv"/>
@@ -823,10 +823,10 @@
                                             </mask>
                                         </variation>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sugarBag" translatesAutoresizingMaskIntoConstraints="NO" id="eNj-He-a3I">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sugarBag" translatesAutoresizingMaskIntoConstraints="NO" id="eNj-He-a3I">
                                         <rect key="frame" x="0.0" y="126" width="40" height="40"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovp-er-FyV">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovp-er-FyV">
                                         <rect key="frame" x="207" y="89" width="36" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="IeV-1r-sSU"/>
@@ -862,7 +862,7 @@
                                             </mask>
                                         </variation>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e54-Kr-SoL">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e54-Kr-SoL">
                                         <rect key="frame" x="160" y="166" width="106" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="106" id="MZp-ow-uP3"/>
@@ -884,13 +884,13 @@
                                             <action selector="checkOutButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mWc-PC-Fv9"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purchase Supplies" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pj7-Sd-2Pa">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Purchase Supplies" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pj7-Sd-2Pa">
                                         <rect key="frame" x="4" y="0.0" width="166" height="28"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1/ea" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aF-hS-lka">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$1/ea" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aF-hS-lka">
                                         <rect key="frame" x="66" y="136" width="44" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="YUh-gR-K9D"/>
@@ -1079,6 +1079,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="amountInCartLabel" destination="3l2-od-cxa" id="ikf-VO-lCW"/>
                         <outlet property="cubesInInventoryLabel" destination="fYc-t8-gff" id="ZHQ-o9-oVA"/>
                         <outlet property="daysInBusinessLabel" destination="8K8-AO-JTn" id="Jsh-oP-nt4"/>
                         <outlet property="iceCubeMixLabel" destination="XpC-qL-uBx" id="Iu7-fZ-73O"/>
